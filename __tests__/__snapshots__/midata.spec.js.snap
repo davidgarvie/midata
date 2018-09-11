@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`midata Should read some midata data 1`] = `
+Array [
+  Object {
+    "Balance": "+£40.00",
+    "Date": "05/09/2018",
+    "Debit/Credit": "-£10.00",
+    "Merchant/Description": "The 3rd Description",
+    "Type": "PAYMENTS",
+  },
+  Object {
+    "Balance": "+50.00",
+    "Date": "04/09/2018",
+    "Debit/Credit": "-50.00",
+    "Merchant/Description": "The 2nd Description",
+    "Type": "FAST PAYMENT",
+  },
+  Object {
+    "Balance": "+100.00",
+    "Date": "03/09/2018",
+    "Debit/Credit": "-£20.00",
+    "Merchant/Description": "A SECOND MERCHANT",
+    "Type": "PAYMENTS",
+  },
+  Object {
+    "Balance": "+£120.00",
+    "Date": "02/09/2018",
+    "Debit/Credit": "+£25.00",
+    "Merchant/Description": "The 1st Description",
+    "Type": "CARD PAYMENT",
+  },
+  Object {
+    "Balance": "+95.00",
+    "Date": "01/09/2018",
+    "Debit/Credit": "-£5.00",
+    "Merchant/Description": "A MERCHANT",
+    "Type": "DD",
+  },
+]
+`;

@@ -1,0 +1,6 @@
+Date;Type;Merchant/Description;Debit/Credit;Balance;
+05/09/2018;PAYMENTS;The 3rd Description;-£10.00;+£40.00;
+04/09/2018;FAST PAYMENT;The 2nd Description;-50.00;+50.00;
+03/09/2018;PAYMENTS;A SECOND MERCHANT;-£20.00;+100.00;
+02/09/2018;CARD PAYMENT;The 1st Description;+£25.00;+£120.00;
+01/09/2018;DD;A MERCHANT;-£5.00;+95.00;

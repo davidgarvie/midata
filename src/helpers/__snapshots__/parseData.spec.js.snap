@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parseData should parse data 1`] = `
+Array [
+  Object {
+    "Balance": "+£90.00",
+    "Date": "08/09/2018",
+    "Debit/Credit": "-£10.00",
+    "Merchant/Description": "SOME MOCK DATA",
+    "Type": "PAYMENTS",
+  },
+  Object {
+    "Balance": "+100.00",
+    "Date": "07/09/2018",
+    "Debit/Credit": "-£5.00",
+    "Merchant/Description": "CARD PAYMENT TO ACME LTD",
+    "Type": "CARD PAYMENT",
+  },
+]
+`;
