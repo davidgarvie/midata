@@ -8,6 +8,7 @@ __tests__
 #settings
 .nvmrc
 .eslintrc
+.circleci
 #editors
 .vscode
 #generated
