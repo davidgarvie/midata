@@ -1,11 +1,11 @@
-const midata = require("..");
 const { readFile } = require("fs");
 const { resolve } = require("path");
+const midata = require("..");
 
 describe("midata", () => {
   let mockData;
 
-  beforeAll(done => {
+  beforeAll((done) => {
     const filePath = resolve(__dirname, "../__mocks__/data.csv");
     readFile(filePath, "utf-8", (err, data) => {
       if (!err) {

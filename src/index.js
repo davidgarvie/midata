@@ -1,12 +1,8 @@
 const { parseData, validateData } = require("./helpers");
 
 function midata(data) {
-  try {
-    validateData(data);
-    return parseData(data);
-  } catch (e) {
-    throw e;
-  }
+  validateData(data);
+  return parseData(data);
 }
 
 module.exports = midata;

@@ -16,15 +16,15 @@
   "author": "David Garvie",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.5.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^3.0.1",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-prettier": "^2.6.2",
-    "husky": "^3.0.5",
-    "jest": "^25.0.0",
-    "lint-staged": "^9.3.0",
-    "prettier": "^1.14.2"
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.3",
+    "jest": "^25.2.4",
+    "lint-staged": "^10.1.1",
+    "prettier": "^2.0.2"
   },
   "dependencies": {},
   "husky": {
@@ -34,8 +34,7 @@
   },
   "lint-staged": {
     "*.{js,json,md}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   }
 }
