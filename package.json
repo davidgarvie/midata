@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint ."
   },
   "keywords": [
     "midata"
@@ -17,15 +18,15 @@
   "author": "David Garvie",
   "license": "MIT",
   "devDependencies": {
+    "@davidgarvie/eslint-config": "^2.0.0",
     "eslint": "^8.1.0",
-    "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.0",
     "jest": "^27.3.1",
     "lint-staged": "^11.2.6",
-    "prettier": "^2.0.2"
+    "prettier": "^2.4.1"
   },
   "lint-staged": {
     "*.js": [
