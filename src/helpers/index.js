@@ -3,5 +3,5 @@ const validateData = require("./validateData");
 
 module.exports = {
   parseData,
-  validateData
+  validateData,
 };
